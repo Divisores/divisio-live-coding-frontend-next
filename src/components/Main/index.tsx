@@ -15,4 +15,5 @@ const Main = () => (
     </S.Listing>
   </S.Container>
 )
+
 export default Main
