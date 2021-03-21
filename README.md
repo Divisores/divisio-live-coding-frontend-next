@@ -4,7 +4,7 @@ Repository created using [Divisio - React Next.js Boilerplate](https://github.co
 
 ## Estória
 
-* Vamos desenvolver uma funcionalidade para listagem pokemons em um componente de lista onde o usuário poderá adicionar novos pokemons e visualizar os detalhes de cada um.
+* Vamos desenvolver uma funcionalidade para listar pokemons, onde o usuário poderá adicionar novos e visualizar os detalhes de cada um.
 
 ## Requisitos
 * Criar tela para listar pokemons (JSON pronto disponível em `src/components/Main/content.ts`)
