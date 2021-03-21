@@ -1,12 +1,18 @@
 import * as S from './styles'
 
+import content from './content'
+
 const Main = () => (
   <S.Container>
-    <S.Logo src="/img/divisio-logo.svg" alt="Logo da Divisio" />
-    <S.Title>Divisio - React Next Boilerplate</S.Title>
-    <S.Description>
-      ReactJS, TypeScript, NextJS e Styled Components
-    </S.Description>
+    <S.Title>Pokedex</S.Title>
+    <S.Listing>
+      {content.map((item) => (
+        <S.ListingItem key={item.id}>
+          <S.ListingItemText>{item.name}</S.ListingItemText>
+          <S.ListingItemText>{item.level}</S.ListingItemText>
+        </S.ListingItem>
+      ))}
+    </S.Listing>
   </S.Container>
 )
 export default Main

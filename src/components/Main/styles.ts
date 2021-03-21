@@ -13,16 +13,32 @@ export const Container = styled.main`
   justify-content: center;
 `
 
-export const Logo = styled.img`
-  width: 25rem;
-  margin-bottom: 2rem;
+export const Title = styled.span`
+  font-size: 28px;
 `
 
-export const Title = styled.h1`
-  font-size: 2.5rem;
+export const Content = styled.div`
+  background-color: red;
+  width: 100%;
 `
 
-export const Description = styled.h2`
-  font-size: 2rem;
-  font-weight: 400;
+export const Listing = styled.div`
+  width: 500px;
+`
+
+export const ListingItem = styled.div`
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid white;
+  cursor: pointer;
+
+  :hover {
+    opacity: 0.8;
+  }
+`
+
+export const ListingItemText = styled.span`
+  font-size: 18px;
+  padding: 10px;
 `
