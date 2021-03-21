@@ -1,48 +1,22 @@
-# React Next Boilerplate
+# Divisio Live Coding - Frontend Next.js
 
-## What's inside it?
+Repository created using [Divisio - React Next.js Boilerplate](https://github.com/divisioinc/divisio-react-next-boilerplate)
 
-- [ReactJS](https://reactjs.org/docs/getting-started.html)
-- [NextJS](https://nextjs.org/docs)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Styled Components](https://styled-components.com/docs)
-- [Jest](https://jestjs.io/docs/en/getting-started)
-- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://github.com/typicode/husky)
-- [Plop](https://plopjs.com/) to automatize components creation structure, see more detail [here](https://github.com/rodrigowpl/react-next-boilerplate#components-structure)
+## Estória
 
-## Dependencies
-- Node js => v10
+* Vamos desenvolver uma funcionalidade para listagem pokemons em um componente de lista onde o usuário poderá adicionar novos pokemons e visualizar os detalhes de cada um.
 
-## Up and Running
-- Install dependencies `yarn (or npm i)`
-- Run `yarn dev (or npm dev)` to run next development server (it  will be available in `http://localhost:3000`
-- Run `yarn storybook` to run storybook development server (it will be available in `http://localhost:6006`)
-- Run `yarn generate [ComponentName]` to create a new component structure automatically (the result will be generated in `src/components/[ComponentName]`)
+## Requisitos
+* Criar tela para listar pokemons: JSON pronto disponível em `src/utils/pokemons.mock.json`
+* Criar funcionalidade para adicionar novos pokemons
+  * Campos: Nome e Nivel
+  * É possível adicionar novos registros de 2 lugares diferentes do sistema: Topbar e listagem. Os dois devem atualizar a mesma listagem.
+* Criar pagina de detalhe do pokemon: Ao clicar em cada linha irá redirecionar para outra página para visualizar o detalhe de cada um.
 
-## Available scripts
-- `yarn dev (or npm dev)`: Run next development server
-- `yarn build (or npm run build)`: Generate next production build
-- `yarn start (or npm start)`: Run next production server
-- `yarn test (or npm run test)`: Run tests
-- `yarn test:watch (or npm run test)`: Run tests in watch mode
+## Requisitos tecnicos
+* Utilizar `styled-components` para css e layout
+* Utilizar TypeScript
 
-## Components structure
-```
-├── /src/
-│   ├── /components/
-│       ├── /[ComponentName]/
-            ├── /index.tsx/   # Component file
-            ├── /stories.tsx/ # Component Storybook story
-            ├── /styles.ts/   # Component styled-components styles
-            ├── /test.tsx/    # Component test file
-```
-
-
-## How to use it?
-Run `yarn create next-app -e https://github.com/divisioinc/divisio-react-next-boilerplate`
-
-Enjoy it :)
+## Informações adicionais
+* Livre para consultar qualquer documentação e pesquisas. Sinta-se em um dia-dia normal. Até mesmo para consultar seus colegas ;)
+* Fique a vontade para sugestões.
