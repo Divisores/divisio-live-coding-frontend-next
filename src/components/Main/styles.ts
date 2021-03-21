@@ -42,3 +42,10 @@ export const ListingItemText = styled.span`
   font-size: 18px;
   padding: 10px;
 `
+
+export const AddButton = styled.button`
+  margin-top: 24px;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px;
+`
