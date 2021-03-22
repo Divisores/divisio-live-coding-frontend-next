@@ -1,4 +1,5 @@
 import * as S from './styles'
+import Button from '../../style-guide/Button'
 
 const TopBar = () => {
   const handleAdd = () => {
@@ -7,7 +8,10 @@ const TopBar = () => {
 
   return (
     <S.Container>
-      <S.AddButton onClick={handleAdd}>Adicionar pokemon</S.AddButton>
+      <S.Label>
+        Pokémons: <S.Total>5</S.Total>
+      </S.Label>
+      <Button onClick={handleAdd}>Adicionar pokemon</Button>
     </S.Container>
   )
 }

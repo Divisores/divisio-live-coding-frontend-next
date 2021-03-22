@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import Button from '../../style-guide/Button'
 
 export const Container = styled.main`
-  background-color: #000000;
+  background-color: #3661a8;
   color: #fff;
   width: 100%;
   height: 100%;
@@ -43,9 +44,6 @@ export const ListingItemText = styled.span`
   padding: 10px;
 `
 
-export const AddButton = styled.button`
+export const AddButton = styled(Button)`
   margin-top: 24px;
-  outline: 0;
-  cursor: pointer;
-  padding: 10px;
 `
