@@ -11,6 +11,7 @@ Repository created using [Divisio - React Next.js Boilerplate](https://github.co
 * Criar funcionalidade para adicionar novos pokemons
   * Campos: Nome e Nivel
   * É possível adicionar novos registros de 2 lugares diferentes do sistema: Topbar e listagem. Os dois devem atualizar a mesma listagem.
+  * A quantidade total de Pokémons capturados deve ser atualizada após uma nova inserção.
 * Criar pagina de detalhe do pokemon: Ao clicar em cada linha irá redirecionar para a página `/pokemon/[name]` para visualizar o detalhe de cada um.
 
 ## Requisitos tecnicos
@@ -18,5 +19,5 @@ Repository created using [Divisio - React Next.js Boilerplate](https://github.co
 * Utilizar TypeScript
 
 ## Informações adicionais
-* Livre para consultar qualquer documentação e pesquisas. Sinta-se em um dia-dia normal. Até mesmo para consultar seus colegas ;)
+* Livre para consultar qualquer documentação e pesquisas. Sinta-se em um dia-a-dia normal. Até mesmo para consultar seus colegas ;)
 * Fique a vontade para sugestões. Componentização, micro-interações de usuário, boilerplate, funcionalidades extras, inclusive algo diferente do que foi inicialmente proposto.
